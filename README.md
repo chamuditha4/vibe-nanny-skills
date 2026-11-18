@@ -75,4 +75,4 @@ The skills are free. If you would rather hand the work to the people who wrote t
 
 ## License
 
-[MIT](LICENSE)
+[AGPL-3.0](LICENSE). Copyright (c) 2026 Chamuditha Prabhath Jayasena. You can use, change and share the skills freely; if you distribute a modified version, or run one as a network service, you must publish your changes under the same license. What the skills generate for you (designs, art, sprite sheets) is yours and is not covered by this license.

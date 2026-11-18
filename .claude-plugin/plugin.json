@@ -5,6 +5,6 @@
   "author": { "name": "Chamuditha Prabhath Jayasena" },
   "homepage": "https://vibenanny.dev",
   "repository": "https://github.com/chamuditha4/vibe-nanny-skills",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "keywords": ["design", "mascot", "app-redesign", "app-icon", "store-screenshots", "sprite-sheet", "animation"]
 }
