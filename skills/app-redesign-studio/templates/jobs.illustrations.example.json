@@ -1,0 +1,13 @@
+{
+  "model": "google/nano-banana",
+  "defaults": { "aspect": "1:1", "image": ["../mascot-flat-reference.png"] },
+  "suffix": "Use the exact same character from the reference image, same flat 2D vector style: simple geometric shapes, flat pastel colors, soft two-tone shading, no outlines, no gradients, no text, no letters, no numbers. Subject centered with generous margin, full body visible. The background must be one flat solid pure chroma-key green color (#00FF00) filling the entire canvas edge to edge, with no shadows, no ground shadow, no gradient and no texture on the background. Do not use any green color anywhere in the illustration itself.",
+  "jobs": [
+    { "out": "green/welcome.png", "prompt": "The character sitting cross-legged peacefully with eyes gently closed and paws together, calm and happy." },
+    { "out": "green/feature-a.png", "prompt": "The character standing beside a large oversized wall calendar page with one day circled, pointing at it cheerfully." },
+    { "out": "green/empty-state.png", "prompt": "The character looking curiously into an empty open cardboard box." },
+    { "out": "green/error.png", "prompt": "The character scratching its head beside a large calculator, mildly confused but calm expression." },
+    { "out": "green/paywall.png", "prompt": "The character relaxing happily in a lavender armchair holding a tablet computer, a tall floor lamp and a pot of pink flowers beside the chair." },
+    { "out": "green/peek-up.png", "aspect": "1:1", "prompt": "The character peeking up from the very bottom edge of the image: only the head, shoulders and both paws are visible, paws resting on the bottom edge, the body cut off by the bottom edge. Big friendly smile, looking up and to the left." }
+  ]
+}

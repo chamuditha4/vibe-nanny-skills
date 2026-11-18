@@ -1,0 +1,76 @@
+{
+  "size": [1242, 2688],
+  "captureDir": "captures",
+  "outDir": "store-screenshots",
+  "fonts": {
+    "headline": "fonts/LilitaOne-Regular.ttf",
+    "body": "fonts/Nunito.ttf",
+    "bodyWeight": 850
+  },
+  "brand": {
+    "text": "refill calc",
+    "icon": "art/keyed/icon-bust.png",
+    "disc": "#8E97FD",
+    "discAlt": "#FFC97E",
+    "size": 54
+  },
+  "phone": { "width": 860, "bezel": 34, "captureScale": 3, "statusBarTime": "9:41", "minTop": 860 },
+  "layout": { "marginX": 84, "headlineTop": 290, "headlineMaxWidth": 1080, "headlineStart": 150, "subtitleSize": 50 },
+  "themes": {
+    "cream":    { "bg": "#FBF4EA", "blob": "#F4E8D6", "ink": "#1F2130", "sub": "#3F414E", "pill": "#5A62D6", "pillInk": "#FFFFFF" },
+    "lavender": { "bg": "#8E97FD", "blob": "#A0A8FF", "ink": "#10154A", "sub": "#10154A", "pill": "#FFC97E", "pillInk": "#1F2130" },
+    "orange":   { "bg": "#FFC97E", "blob": "#FFD69C", "ink": "#1F2130", "sub": "#3F414E", "pill": "#3F414E", "pillInk": "#FFFFFF" },
+    "charcoal": { "bg": "#3F414E", "blob": "#4B4D5C", "ink": "#FFFFFF", "sub": "#E1E3EE", "pill": "#8E97FD", "pillInk": "#10154A" },
+    "navy":     { "bg": "#03174C", "blob": "#0E2663", "ink": "#FFFFFF", "sub": "#D6DBF0", "pill": "#FFC97E", "pillInk": "#1F2130" }
+  },
+  "shots": [
+    {
+      "file": "01-refill-date-math.png", "theme": "cream", "capture": "refill-hero", "tilt": -3, "shift": -95,
+      "headline": ["Know the", "refill date—", "*and the math*"],
+      "subtitle": "First, last and next-coverage dates. Every step shown.",
+      "mascot": { "image": "art/keyed/calendar.png", "height": 640, "edge": "right", "overhang": 150 }
+    },
+    {
+      "file": "02-days-supply.png", "theme": "lavender", "capture": "days-result", "tilt": 3, "shift": 95,
+      "headline": ["Calculate", "days supply", "*in seconds*"],
+      "subtitle": "Tablets, capsules and liquids — fractional doses included.",
+      "mascot": { "image": "art/keyed/bottle.png", "height": 700, "edge": "left", "overhang": 190 }
+    },
+    {
+      "file": "03-quantity-needed.png", "theme": "orange", "capture": "quantity", "tilt": -3, "shift": -95,
+      "headline": ["Reverse-calculate", "*30/60/90-day*", "quantity"],
+      "subtitle": "Raw result, rounding rule and final quantity — never silent.",
+      "mascot": { "image": "art/keyed/calculator.png", "height": 700, "edge": "right", "overhang": 170 }
+    },
+    {
+      "file": "04-date-timeline.png", "theme": "cream", "capture": "refill-timeline", "tilt": 3, "shift": 95, "trimTop": 210,
+      "headline": ["See every", "*important date*"],
+      "subtitle": "First covered, last covered, next needed and your request date.",
+      "mascot": { "image": "art/keyed/clipboard.png", "height": 700, "edge": "left", "overhang": 190 }
+    },
+    {
+      "file": "05-dosage-forms.png", "theme": "charcoal", "capture": "home", "tilt": -3, "shift": -80,
+      "headline": ["Built for real", "*pharmacy workflows*"],
+      "subtitle": "Refill dates, tablets, liquids, inhalers, sprays and drops.",
+      "mascot": { "image": "art/keyed/lean-right.png", "height": 860, "edge": "right", "overhang": 70 }
+    },
+    {
+      "file": "06-show-the-math.png", "theme": "navy", "capture": "inhaler-math", "tilt": 3, "shift": -60,
+      "headline": ["Every result", "*explains itself*"],
+      "subtitle": "Inputs, formula, rounding and assumptions — always visible.",
+      "mascot": { "image": "art/keyed/peek-up.png", "height": 470, "edge": "right", "overhang": 120 }
+    },
+    {
+      "file": "07-history-favorites.png", "theme": "orange", "capture": "favorites-dark", "tilt": -3, "shift": -95,
+      "headline": ["Save templates—", "*not patient data*"],
+      "subtitle": "History and favorites stay on your device. Names are opt-in.",
+      "mascot": { "image": "art/keyed/favorites.png", "height": 660, "edge": "right", "overhang": 180 }
+    },
+    {
+      "file": "08-pro-lifetime.png", "theme": "lavender", "capture": "paywall", "tilt": 3, "shift": 95,
+      "headline": ["Go Pro once.", "*Keep it forever.*"],
+      "subtitle": "One-time purchase. No subscription. Every Pro calculator.",
+      "mascot": { "image": "art/keyed/celebrate.png", "height": 740, "edge": "left", "overhang": 200 }
+    }
+  ]
+}

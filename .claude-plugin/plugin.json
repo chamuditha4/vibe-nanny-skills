@@ -1,0 +1,10 @@
+{
+  "name": "vibe-nanny",
+  "description": "Free Vibe Nanny skills: redesign an app from reference designs, make mascot art, app icons and store screenshots, and animate mascots into sprite sheets with Mascot Studio.",
+  "version": "1.0.0",
+  "author": { "name": "Chamuditha Prabhath Jayasena" },
+  "homepage": "https://vibenanny.dev",
+  "repository": "https://github.com/chamuditha4/vibe-nanny-skills",
+  "license": "MIT",
+  "keywords": ["design", "mascot", "app-redesign", "app-icon", "store-screenshots", "sprite-sheet", "animation"]
+}

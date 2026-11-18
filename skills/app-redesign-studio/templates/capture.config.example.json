@@ -1,0 +1,57 @@
+{
+  "baseUrl": "http://localhost:8090",
+  "outDir": "captures",
+  "viewport": { "width": 390, "height": 797 },
+  "scale": 3,
+  "colorScheme": "light",
+  "dismissAfterGoto": ["get started"],
+  "steps": [
+    { "goto": "/", "noDismiss": true },
+    { "shot": "welcome" },
+    { "click": "get started" },
+
+    { "goto": "/calculators/refill-date" },
+    { "click": "calculate refill timeline" },
+    { "scrollTo": "Suggested request date •", "offset": 20 },
+    { "shot": "refill-hero" },
+    { "scrollTo": "^Coverage timeline$", "offset": 20 },
+    { "shot": "refill-timeline" },
+    { "click": "save refill timeline" },
+    { "closeIfPresent": "^done$" },
+
+    { "goto": "/calculators/days-supply?form=tablet" },
+    { "click": "calculate days supply" },
+    { "scrollTo": "^Calculated$", "offset": 60 },
+    { "shot": "days-result" },
+    { "click": "^favorite$" },
+    { "closeIfPresent": "^done$" },
+    { "click": "save calculation" },
+    { "closeIfPresent": "^done$" },
+
+    { "goto": "/calculators/quantity" },
+    { "clickExact": "90" },
+    { "click": "calculate quantity" },
+    { "scrollTo": "^How many days are needed\\?$", "offset": 12 },
+    { "shot": "quantity" },
+
+    { "goto": "/calculators/inhaler" },
+    { "click": "calculate days supply" },
+    { "scrollTo": "^Show the math$", "offset": 12 },
+    { "shot": "inhaler-math" },
+    { "click": "save calculation" },
+    { "closeIfPresent": "^done$" },
+
+    { "goto": "/" },
+    { "shot": "home" },
+
+    { "goto": "/paywall" },
+    { "scrollTo": "^One-time purchase$", "offset": 16 },
+    { "shot": "paywall" },
+
+    { "goto": "/" },
+    { "click": "^favorites$", "nth": 0 },
+    { "wait": 1200 },
+    { "colorScheme": "dark" },
+    { "shot": "favorites-dark" }
+  ]
+}

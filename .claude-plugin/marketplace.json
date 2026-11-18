@@ -1,0 +1,15 @@
+{
+  "name": "vibe-nanny-skills",
+  "owner": { "name": "Chamuditha Prabhath Jayasena" },
+  "metadata": {
+    "description": "Free Vibe Nanny skills for app redesigns, mascots and mascot animation."
+  },
+  "plugins": [
+    {
+      "name": "vibe-nanny",
+      "source": "./",
+      "description": "App redesign, mascot art, app icons, store screenshots and mascot animation skills.",
+      "version": "1.0.0"
+    }
+  ]
+}

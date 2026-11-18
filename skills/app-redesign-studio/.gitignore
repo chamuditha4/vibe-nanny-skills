@@ -1,0 +1,10 @@
+# Secrets and per-project inputs never belong in the skill repo
+*.env
+!*.env.example
+/design-inputs/
+
+# Generated / local
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store

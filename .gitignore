@@ -1,0 +1,6 @@
+/design-inputs/
+__pycache__/
+*.pyc
+.env
+replicate.env
+/gen/
